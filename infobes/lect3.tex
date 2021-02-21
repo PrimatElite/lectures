@@ -1,0 +1,77 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+
+\begin{document}
+
+\section{2.4 Гомоморфизмы}
+
+Различные алгебры одной и той же сигнатуры носят название подобных
+
+Понятие гомоморфизма:
+
+$$
+    f 
+$$
+
+$$
+a -> f(a)
+$$
+
+$$
+func_{i}(x, func_j(x, y))
+$$
+
+....
+
+Пример: 
+
+Сигнатура: $\Sigma_{int} = <S_{int}, \Omega_{int}>$
+
+$S_{int} = {number}$
+
+$\Omega_{int} = {zero, one: number; plus, minus: number, number -> number}$
+
+Mod4 (см пред лекцию)
+
+Mod2:
+
+представление: $number = \{ 0, 1\}$
+
+операции: $zero = 0, one = 1;$
+
+(плюс и минус в табличках)
+
+Гомоморфизм $f: |Mod4| -> |Mod2|$: 
+$$
+    f(0)=0 \\
+    f(1) = 1 \\
+    f(2) = 0 \\
+    f(3) = 1 \\
+$$
+
+$$f(zero) |_{Mod4} = zero|_{Mod2}$$
+$$f(one) |_{Mod4} = one|_{Mod2}$$
+$$f(plus(a, b)) |_{Mod4} = plus(f(a), f(b))|_{Mod2}$$
+$$f(times(a, b)) |_{Mod4} = times(f(a), f(b))|_{Mod2}$$
+
+\underline{Формальное определение гомоморфизма:}
+
+$$
+\Sigma = <S, \Omega>
+$$
+
+Тогда $\Sigma$ - гомоморфизм из 
+Есть такое семейство отображений f
+$$ f_s(\omega(a_1, ... a_n)) = \omega(f_{u1}(a_1), ... f_{un}(a_n))  $$
+$$ f_s(\omega(a_1, ... a_n)) = \omega(f_{u1}(a_1), ... f_{un}(a_n))  $$
+$$ f_s(\omega(a_1, ... a_n)) = \omega(f_{u1}(a_1), ... f_{un}(a_n))  $$
+
+что для всех элементов $$\omega \in \Omega_{us}, a_i \in |A|$$
+$$ f_s(\omega(a_1, ... a_n)) = \omega(f_{u1}(a_1), ... f_{un}(a_n))  $$
+$$ f_s(\omega(a_1, ... a_n)) = \omega(f_{u1}(a_1), ... f_{un}(a_n))  $$
+
+
+\end{document}
