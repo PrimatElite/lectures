@@ -1,0 +1,2 @@
+# lectures
+Latex lections 
